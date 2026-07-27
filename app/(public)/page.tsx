@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import MentorCard from '@/components/MentorCard';
 import FeaturedLearningTracks from '@/components/FeaturedLearningTracks';
 import FeaturedArticles from '@/components/FeaturedArticles';
+import FeaturedMentorHighlight from '@/components/FeaturedMentorHighlight';
 import ToolsAndTemplates from '@/components/ToolsAndTemplates';
 import ResourceSearchBar from '@/components/ResourceSearchBar';
 import TestimonialsSection from '@/components/TestimonialsSection';
@@ -177,6 +178,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Featured Mentor Highlight */}
+      <FeaturedMentorHighlight />
 
       {/* Dynamic Landing Sections */}
       <FeaturedLearningTracks />
